@@ -1,0 +1,15 @@
+D:\SynchronousSorting\SynchronousSorting\bin\Debug\net6.0\SynchronousSorting.exe
+D:\SynchronousSorting\SynchronousSorting\bin\Debug\net6.0\SynchronousSorting.deps.json
+D:\SynchronousSorting\SynchronousSorting\bin\Debug\net6.0\SynchronousSorting.runtimeconfig.json
+D:\SynchronousSorting\SynchronousSorting\bin\Debug\net6.0\SynchronousSorting.dll
+D:\SynchronousSorting\SynchronousSorting\bin\Debug\net6.0\SynchronousSorting.pdb
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.csproj.AssemblyReference.cache
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.AssemblyInfoInputs.cache
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.AssemblyInfo.cs
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.csproj.CoreCompileInputs.cache
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.dll
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\refint\SynchronousSorting.dll
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.pdb
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\SynchronousSorting.genruntimeconfig.cache
+D:\SynchronousSorting\SynchronousSorting\obj\Debug\net6.0\ref\SynchronousSorting.dll
