@@ -74,6 +74,7 @@ namespace SynchronousSorting
             {
                // Console.Write($"{list[i]} ");
             }
+            Console.WriteLine("Total values in sync bubble sort " + list.Length);
             BubbleSort(list);
         }
 
@@ -118,6 +119,7 @@ namespace SynchronousSorting
             {
                 //Console.Write($"{list[i]} ");
             }
+            Console.WriteLine("Total values in sync selection sort " + list.Length);
             SelectionSort(list);
         }
 
@@ -197,7 +199,8 @@ namespace SynchronousSorting
                 {
                    // Console.Write($"{list[i]} ");
                 }
-                await BubbleSortAsync(list);
+                 Console.WriteLine("Total values in async bubble sort " + list.Length);
+                 await BubbleSortAsync(list);
             });
         }
 
@@ -211,6 +214,7 @@ namespace SynchronousSorting
                 {
                   //  Console.Write($"{list[i]} ");
                 }
+                Console.WriteLine( "Total values in async selection sort " + list.Length);
                 await SelectionSortAsync(list);
            });
         }
