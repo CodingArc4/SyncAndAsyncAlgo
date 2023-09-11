@@ -70,10 +70,10 @@ namespace SynchronousSorting
         public static void CallBubbleSort(int[] list) {
             //int[] unsortedlsit = { 36, 2, 29, 1, 8, 14 };
             //Console.WriteLine("Printing Sync Bubble Sorted List");
-            for (int i = 0; i < list.Length; i++)
-            {
-               // Console.Write($"{list[i]} ");
-            }
+            //for (int i = 0; i < list.Length; i++)
+            //{
+            //   // Console.Write($"{list[i]} ");
+            //}
             Console.WriteLine("Total values in sync bubble sort " + list.Length);
             BubbleSort(list);
         }
@@ -115,10 +115,10 @@ namespace SynchronousSorting
         public static void CallingSelectionSort(int[] list)
         {
             //Console.WriteLine("Prinitng Sync Selection Sorted list");
-            for(int i = 0; i < list.Length; i++)
-            {
-                //Console.Write($"{list[i]} ");
-            }
+            //for(int i = 0; i < list.Length; i++)
+            //{
+            //    //Console.Write($"{list[i]} ");
+            //}
             Console.WriteLine("Total values in sync selection sort " + list.Length);
             SelectionSort(list);
         }
@@ -194,11 +194,11 @@ namespace SynchronousSorting
             //Console.WriteLine("Printing Async Bubble Sorted List");
             await Task.Run(async () =>
              {
-                //int[] unsortedlsit = { 36, 2, 29, 1, 8, 14 };
-                for (int i = 0; i < list.Length; i++)
-                {
-                   // Console.Write($"{list[i]} ");
-                }
+                ////int[] unsortedlsit = { 36, 2, 29, 1, 8, 14 };
+                //for (int i = 0; i < list.Length; i++)
+                //{
+                //   // Console.Write($"{list[i]} ");
+                //}
                  Console.WriteLine("Total values in async bubble sort " + list.Length);
                  await BubbleSortAsync(list);
             });
@@ -210,10 +210,10 @@ namespace SynchronousSorting
             //Console.WriteLine("Prinitng Async Selection Sorted list");
             await Task.Run(async () =>
             {
-                for (int i = 0; i < list.Length; i++)
-                {
+               // for (int i = 0; i < list.Length; i++)
+               // {
                   //  Console.Write($"{list[i]} ");
-                }
+               // }
                 Console.WriteLine( "Total values in async selection sort " + list.Length);
                 await SelectionSortAsync(list);
            });
